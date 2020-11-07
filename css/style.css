@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+}

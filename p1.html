@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            background-color: blue;
+            width: 600px;
+            height: 100%;
+        }
+        tr{
+            background-color: black;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+  <center>
+    <form>
+        <h1>REGISTERATION FORM</h1>
+        
+        <label>First Name :</label>
+        <input type="text" placeholder="Enter the FirstName"><br><br>
+        <label>Last Name :</label>
+        <input type="text" placeholder="Enter the LastName"><br><br>
+        <label>Date of Birth :</label>
+        <input type="date" name="date"><br><br>
+        <label>Email Id :</label>
+        <input type="email" placeholder="Enter the Email id"><br><br>
+        <label>Number :</label>
+        <input type="number" placeholder="Enter the Number"><br><br>
+        <label>gender :</label>
+        <input type="radio" value="Male" name="gender">Male
+        <input type="radio" value="Female" name="gender">FeMale
+        <br><br>
+        <label>Address :</label>
+        <textarea name="Address" rows="4" cols="30"></textarea><br><br>
+        <label>Pin Code :</label>
+        <input type="number" placeholder="Enter PinCode"><br><br>
+        <label>State :</label>
+        <input type="text" placeholder="Enter State"><br><br>
+        <label>Country :</label>
+        <select name="country">
+            <option>India</option>
+            <option>Australia</option>
+            <option>FinLand</option>
+            <option>China</option>
+            <option>Africa</option>
+            <option>Singapore</option>
+        </select><br><br>
+        <label>Hobbies :</label>
+        <input type="checkbox" name="Drawing" value="Drawing">Drawing
+        <input type="checkbox" name="singing" value="singing">Singing
+        <input type="checkbox" name="other" value="other">Other<br><br>
+        <label>Qualification :</label>
+        <table  border="1" cellspacing="5" cellpadding="10">
+            <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Mark</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>siva</td>
+                <td>Karpagam college of engineering</td>
+                <td>7.22</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>surya</td>
+                <td>Kalasalingam college of engineering</td>
+                <td>8.32</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>pandi</td>
+                <td>Ammaiyappar college of engineering</td>
+                <td>9.99</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mano</td>
+                <td>Hindusthan college of engineering</td>
+                <td>4.22</td>
+            </tr>
+        </table><br>
+        <label>Courses :</label>
+        <select>
+            <option>BTech</option>
+            <option>BE</option>
+            <option>BCA</option>
+            <option>BCom</option>
+        </select><br><br>
+        <input type="button" value="submit">
+        <input type="button" value="cancel">
+       </form>
+  </center>
+</body>
+</html>
